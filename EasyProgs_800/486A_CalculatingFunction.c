@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main()
 {
-    int n, x;
-    scanf("%d", &n);
-    x = n / 2 - n % (2 * n);
-    printf("%d", x);
+    long long int n,x;
+    scanf("%lld", &n);
+    x = n / 2 - n % 2 * n;
+    printf("%lld", x);
 }
