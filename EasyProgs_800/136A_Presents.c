@@ -3,8 +3,8 @@
 int main()
 {
     int n, p, i;
-    int a[n];
     scanf("%d", &n);
+    int a[n];
     for (i = 1; i <= n; i++)
     {
         scanf("%d", &p);
